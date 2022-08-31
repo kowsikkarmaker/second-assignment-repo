@@ -1,6 +1,8 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 .container{
     width: 70%;
@@ -67,11 +69,20 @@ body{
     border-radius: 10px;
 }
 .site-button button a{
-  color: black;
-    text-decoration: none;  
+    color: black;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;  
 }
 .site-button .button-01{
     background-color: red;
+}
+.site-button .button-03{
+    background-color: red;
+    color: white;
+}
+.site-button .button-03 a{
+    
+    color: white;
 }
 .site-button .button-01 a{
     color: white;
@@ -117,12 +128,45 @@ padding-bottom: 10px;
 .live-icon{
     display: flex;
     align-items: center;
-    justify-content: ;
+}
+
+/* wevsite two extra part start */
+.live2{
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+.live-match{
+    display: flex;
+    justify-content: center;
+}
+.live-match h4{
+
+    padding-right: 10px;
+}
+.live-match img{
+    width: 50%;
+}
+.lives2{
 
 }
+/* wevsite two extra part End */
+
 /* **********************second section end************************* */
-
-
+.view-button a{
+    width: 150px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 15px 30px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+    
+}
 
 /* **********************Footer section Start************************* */
 .container03{
@@ -136,7 +180,7 @@ color: white;
 text-align: center;
 }
 hr{
-    width: 8800px;
+    width: 800px;
     
 }
 .navber ul{
