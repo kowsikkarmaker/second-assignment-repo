@@ -86,12 +86,13 @@ body{
     
 }
 .live{
-width: 80%;
+width: 85%;
 border: 1px solid gray;
 border-radius: 10px;
 
 padding-bottom: 10px;
 }
+
 .live>img{
     width: 100%;
     margin-bottom: 10px;
@@ -103,7 +104,11 @@ padding-bottom: 10px;
     border: 1px solid black;
     border-radius: 5px;
     padding: 2px 5px;
+    margin-left: 10px;
     
+}
+.live h4{
+   padding-left: 10px;
 }
 .live-icon span{
     font-size: 15px;
